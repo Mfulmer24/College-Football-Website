@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Football Fan Zone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>College Football Fan Zone</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#ap-poll">AP Poll</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#recruits">Recruits</a></li>
+                <li><a href="#nil-deals">NIL Deals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to the College Football Fan Zone</h2>
+            <p>Stay updated with the latest news, scores, and highlights from your favorite college football teams.</p>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams">
+        <div class="container">
+            <h2>Teams</h2>
+            <p>Explore detailed information about your favorite college football teams, their rosters, and performance history.</p>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <p>Check out the upcoming games and never miss a match. Stay informed about key rivalries and important dates.</p>
+        </div>
+    </section>
+
+    <!-- AP Poll Section -->
+    <section id="ap-poll">
+        <div class="container">
+            <h2>AP Poll</h2>
+            <p>Get the latest AP Poll rankings to see where your favorite teams stand in the national rankings.</p>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+        <div class="container">
+            <h2>News</h2>
+            <p>Stay informed with the latest news and updates from around the world of college football, including game recaps, player highlights, and more.</p>
+        </div>
+    </section>
+
+    <!-- Recruits Section -->
+    <section id="recruits">
+        <div class="container">
+            <h2>Top Recruits</h2>
+            <p>Learn about the top college football recruits, their rankings, and which teams are securing the best talent for the upcoming seasons.</p>
+        </div>
+    </section>
+
+    <!-- NIL Deals Section -->
+    <section id="nil-deals">
+        <div class="container">
+            <h2>NIL Deals</h2>
+            <p>Explore the latest Name, Image, and Likeness (NIL) deals that players are signing, and see how they are benefiting from their talent and popularity.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
